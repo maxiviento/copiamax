@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>maxCopia</class>
+ <widget class="QDialog" name="maxCopia">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>472</width>
+    <height>452</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>maxCopia</string>
+  </property>
+  <widget class="QLabel" name="lbl_lectura">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>411</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>INDICAR CARPETA DE LECTURA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_leerCarpeta">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LEER CARPTEA DE SOLICTUDES SUAC</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_guardaXlsx">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>GUARDAR EXCEL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_obtenerLista">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LISTA EXCEL PARA COPIAR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_destino">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>300</y>
+     <width>411</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>INDICAR CARPETA DE DESTINO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_indicaDestino">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>INDICAR DESTINO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_iniciaCopia">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>350</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>INICIAR COPIA</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_mensaje">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>400</y>
+     <width>411</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>mensaje</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_excel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>220</y>
+     <width>411</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>INDICAR CARPETA DE LECTURA</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
